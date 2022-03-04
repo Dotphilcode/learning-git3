@@ -9,12 +9,6 @@ pipeline {
           }
         }
 
-        stage('echo 2') {
-          steps {
-            echo 'hello again'
-          }
-        }
-
       }
     }
 

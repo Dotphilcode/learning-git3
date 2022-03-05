@@ -1,8 +1,11 @@
 pipeline{
     agent any
+    	triggers {
+	    githubPush
+	}
     	stages{
 	    stage ('first') {
-	    	steps{
+	    	stepis{
 		    echo 'something is real'
 		    }
 	    }	    

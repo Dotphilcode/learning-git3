@@ -6,10 +6,11 @@ pipeline{
     	 stages{
 	    stage ('first') {
 	    	steps{
-	    	    echo 'something is really real'
+	    	    echo 'something'
 	    	}
 	    }	    
          }  
 }
+
 
 

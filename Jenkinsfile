@@ -5,10 +5,9 @@ pipeline{
 	}
     	    stages{
 	    	stage ('first') {
-	    		step{
+	    		steps{
 		    	    echo 'something is real'
 		    	}
 	    	}	    
              }  
 }
-

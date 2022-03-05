@@ -3,11 +3,12 @@ pipeline{
     	triggers {
 	    githubPush
 	}
-    	stages{
-	    stage ('first') {
-	    	step{
-		    echo 'something is real'
-		    }
-	    }	    
-         }  
+    	    stages{
+	    	stage ('first') {
+	    		step{
+		    	    echo 'something is real'
+		    	}
+	    	}	    
+             }  
 }
+
